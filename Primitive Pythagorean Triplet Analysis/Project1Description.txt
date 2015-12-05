@@ -1,0 +1,53 @@
+Assignment 1: Pythagorean Triples
+
+Pythagorean triples are positive integer solutions (a, b, c) to the equation a2 + b2 = c2. "Primitive Pythagorean Triples" are those for which a, b, and c are relatively prime (have no common divisor greater than 1).
+
+Activity:
+
+Generate all "Primitive Pythagorean Triples" for a, b ≤ 5000.
+See if there is any discernible structure in the PPTs.
+Write a report containing your results and conclusions.
+Tools:
+
+Use mygcd(a, b) = 1 to check if a and b are relatively prime.
+Need to test if a2 + b2 is a perfect square - write a function to do this.
+Generate graphs using plot to look for patterns.
+Python code for testing your is_square function.
+
+Structure:
+INTRODUCTION:
+-Explain the topic in a way that would be understandable to another member of the class.
+- Say what "Primitive Pythagorean Triples" are.
+
+TASK CLEARLY STATED:
+- What is it the main question that the report is tackling?
+
+APPROACH DESCRIBED:
+- Suppose that there is structure present in the distribution of PPTs. How do we go about finding such structure?
+- Which functions were written for this report, and why?
+
+RESULTS CLEARLY PRESENTED:
+- Label all graphs and axes.
+- It would be useful to say how many PPTs were found.
+- You do not need to list them all.
+
+RESULTS INTERPRETED/CONCLUSION:
+There is a distinction here between observation and analysis.
+- Observation involves stating that we see certain patterns in the graphs/data (arcs etc).
+- Analysis is working out in detail what these patterns are and why they are there. This is the hardest part of the report. Any significant effort in this area will deserve extra credit, and can be considered optional.
+
+COMPLETE PYTHON CODE:
+- Paste at the end of the report as one piece.
+- Include just the code used in the report.
+- Format using a fixed-width font.
+- Test that the code runs correctly without error.
+
+EXTRA CREDIT:
+- Further analyze and explaining the PPT structure using additional graphs, mathematical analysis, or both.
+- Discover ways to speed up the Python code beyond what we have seen in class.
+- Clarity in presentation and communication.
+- Any work beyond that specified in the report description.
+
+The main points are:
+(i) Explicitly state what you have done, and why.
+(ii) Don't expect a complete and full analysis of this problem. If there are open questions remaining, feel comfortable to say so, and make suggestions as to how you could explore further if more time were available.
