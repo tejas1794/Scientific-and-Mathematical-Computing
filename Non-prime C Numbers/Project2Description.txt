@@ -1,0 +1,16 @@
+Assignment 2: Are There any Non-Prime C-Numbers?
+
+A "C-number" was defined in class as an integer n > 1 such that bn mod n = b for all integers 1 < b < n.
+
+Activity:
+
+Find out if any non-prime C-numbers exist.
+
+Tools:
+
+Develop a way to check if an integer is a C-number.
+Develop a way to check if an integer is prime.
+
+Hints:
+
+Write separate is_prime and is_c_number functions. Doing this resolves the differences between "break" and "return". If we have a nested series of loops, "break" just terminates the deepest enclosing loop and jumps up one loop. However, if these loops are inside a function definition, "return" will jump right out of the function, potentially jumping out of several nested loops in one go. This can be very useful, particularly if we want to check that every test succeeds when (for example) we're checking for C-numbers.
